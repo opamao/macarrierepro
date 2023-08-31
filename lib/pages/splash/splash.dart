@@ -16,7 +16,7 @@ class _SplashState extends State<Splash> {
       duration: 3000,
       splash: Padding(
         padding: const EdgeInsets.all(10.0),
-        child: Image.asset("assets/images/logo.jpg"),
+        child: Image.asset("assets/images/logo.png"),
       ),
       nextScreen: const SplashScreen(),
       splashTransition: SplashTransition.fadeTransition,

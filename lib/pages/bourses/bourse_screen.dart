@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:macarrierepro/custome/custome_appbar.dart';
 
 class BourseScreen extends StatefulWidget {
   const BourseScreen({super.key});
@@ -10,6 +11,13 @@ class BourseScreen extends StatefulWidget {
 class _BourseScreenState extends State<BourseScreen> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold(
+      appBar: AppBarCustome(
+        title: "Bourse d'étude",
+      ),
+      body: SafeArea(
+        child: Container(),
+      ),
+    );
   }
 }

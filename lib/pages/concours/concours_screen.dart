@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:macarrierepro/custome/custome_appbar.dart';
 
 class ConcoursScreen extends StatefulWidget {
   const ConcoursScreen({super.key});
@@ -10,6 +11,13 @@ class ConcoursScreen extends StatefulWidget {
 class _ConcoursScreenState extends State<ConcoursScreen> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold(
+      appBar: AppBarCustome(
+        title: "Concours",
+      ),
+      body: SafeArea(
+        child: Container(),
+      ),
+    );
   }
 }

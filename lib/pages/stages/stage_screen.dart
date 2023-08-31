@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:macarrierepro/custome/custome_appbar.dart';
 
 class StageScreen extends StatefulWidget {
   const StageScreen({super.key});
@@ -10,6 +11,13 @@ class StageScreen extends StatefulWidget {
 class _StageScreenState extends State<StageScreen> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold(
+      appBar: AppBarCustome(
+        title: "Stages",
+      ),
+      body: SafeArea(
+        child: Container(),
+      ),
+    );
   }
 }

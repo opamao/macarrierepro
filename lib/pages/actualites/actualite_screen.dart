@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:macarrierepro/custome/custome_appbar.dart';
 
 class ActualiteScreen extends StatefulWidget {
   const ActualiteScreen({super.key});
@@ -10,6 +11,13 @@ class ActualiteScreen extends StatefulWidget {
 class _ActualiteScreenState extends State<ActualiteScreen> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold(
+      appBar: AppBarCustome(
+        title: "Actualités",
+      ),
+      body: SafeArea(
+        child: Container(),
+      ),
+    );
   }
 }
