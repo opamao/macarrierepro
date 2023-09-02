@@ -52,7 +52,7 @@ class _MenusState extends State<Menus> {
           NavigationDestination(
             selectedIcon: Icon(Icons.travel_explore_outlined),
             icon: Icon(Icons.public_outlined),
-            label: 'Bourse etude',
+            label: 'Bourse',
           ),
           NavigationDestination(
             icon: Icon(Icons.newspaper_outlined),
